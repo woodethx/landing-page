@@ -110,3 +110,38 @@ ul{
     color: #1F2937;
     font-size: 18px;
 }
+
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    padding: 25px 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px;
+}
+.buttonTwo{
+    background-color: transparent;
+    border-color:#F9FAF8;
+    padding: 10px 25px;
+    border-style: solid;
+    border-radius: 10px;
+    color:#F9FAF8;
+    font-weight: 700;
+}
+.callText{
+    margin:0px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.signText{
+    margin:0px;
+    margin-right: 50px;
+}

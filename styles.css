@@ -1,3 +1,6 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -21,11 +24,12 @@ ul{
     margin-left: auto;
 }
 
+
 .sign{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 30px 100px;
+    padding: 75px 100px;
     align-items: center; 
     justify-content: center;
 }
@@ -42,4 +46,45 @@ ul{
     border-radius: 10px;
     font-weight: 700;
     border:0cm;
+}
+.bigText{
+    font-size: 48px;
+    font-weight: 900;
+    margin:0px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    flex-direction: column;
+}
+.imageCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:25px;
+}
+.i{
+    width: 200px;
+    height: 200px;
+    border-radius:10px;
+    border-color: #3882F6;
+    border-width:5px;
+    border-style: solid;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    margin-bottom: auto;
+}
+.infoText{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
